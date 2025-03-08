@@ -7,11 +7,11 @@ document.getElementById("btn").addEventListener("click", function () {
 
     const screenWidth = window.innerWidth;
     const screenHeight = window.innerHeight;
-    const centerX = screenWidth / 2;
-    const centerY = screenHeight / 2;
+    const centerX = screenWidth / 2.5;
+    const centerY = screenHeight / 2.5;
     const radius = Math.min(screenWidth, screenHeight) / 2.5;
 
-    const flowers = ["🌹", "🌷", "🌻", "💐"];
+    const flowers = ["🌸","💐","🌷","🪻"];
     let flowerCount = 50;
     let angleStep = (2 * Math.PI) / flowerCount;
 
